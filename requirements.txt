@@ -7,7 +7,7 @@ statsmodels==0.14.1
 openpyxl==3.1.2
 
 # --- EDA 리포트 ---
-ydata-profiling==4.7.0
+# ydata-profiling==4.7.0
 
 # --- 커널 및 전처리 ---
 ipykernel==6.29.5
