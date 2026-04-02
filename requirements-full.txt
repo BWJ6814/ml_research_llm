@@ -1,0 +1,21 @@
+# Local / notebook environment (not used by Streamlit Cloud by default)
+# pip install -r requirements-full.txt
+
+# --- 핵심 분석 스택 ---
+pandas>=2.2,<3
+numpy>=1.26,<3
+matplotlib>=3.8,<4
+seaborn>=0.13
+statsmodels>=0.14
+openpyxl>=3.1
+
+# --- EDA 리포트 (htmlmin 등은 Py3.13+에서 문제될 수 있음 → 로컬 3.12 권장) ---
+ydata-profiling>=4.6,<5
+
+# --- 커널 및 전처리 ---
+ipykernel>=6.29
+nltk>=3.8
+scikit-learn>=1.3
+joblib>=1.3
+xgboost>=2.0
+streamlit>=1.28
