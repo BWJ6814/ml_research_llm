@@ -23,3 +23,5 @@ build/
 
 # Raw / large data (remove next line if you intentionally version CSVs or use Git LFS)
 /data/*.csv
+
+*.csv
