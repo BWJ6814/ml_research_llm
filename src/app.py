@@ -99,7 +99,6 @@ def _reference_panel(title: str, question: str, body: str, key_prefix: str) -> N
         "본문",
         value=body,
         height=_REF_SCROLL_H,
-        disabled=True,
         label_visibility="collapsed",
         key=f"{key_prefix}_body",
     )
